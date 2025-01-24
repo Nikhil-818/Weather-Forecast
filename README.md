@@ -6,7 +6,6 @@ A simple weather application that provides the latest weather information, inclu
 ![Weather Forecast](assets/demo/cloud_demo.png)
 ![Weather Forecast](assets/demo/rain_demo.png)
 ![Weather Forecast](assets/demo/snow_demo.png)
-![Weather Forecast](assets/demo/thunderstorm_demo.png)
 
 ## Features
 
@@ -37,7 +36,7 @@ A simple weather application that provides the latest weather information, inclu
     ```
 2. Navigate to the project directory:
     ```bash
-    cd weather-app
+    cd Weather-Forecast
     ```
 
 ### Usage
