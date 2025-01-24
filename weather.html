@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather App - Get the latest weather information">
+    <meta name="keywords" content="weather, forecast, temperature, humidity, precipitation">
+    <meta name="author" content="Nikhil">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+<main class="main-container">
+    <section class="left-container">
+        <div class="search-bar">
+            <img src="assets/images/location.png" alt="Location Icon">
+            <input type="text" placeholder="Jaipur, India" value="Jaipur, India" class="search-input">
+            <button class="search-button">
+                <img src="assets/images/search-icon.png" alt="Search Icon">
+            </button>
+        </div>
+        <div class="desc">
+            <h1>28&#176;</h1>
+            <h1>Rainy Day</h1>
+            <p>Today, expect a rainy day with temperature reaching a maximum of 28&#176;, Make sure to grab your
+                umbrella and raincoat before heading out</p>
+        </div>
+        <div class="left-container-boxes">
+            <div class="weather-box feels-like">
+                <img src="assets/images/thermometer.png" alt="Thermometer Icon">
+                <h2>Feels Like</h2>
+                <h1>30&#176;</h1>
+                <p>Humidity is making it feel warmer</p>
+            </div>
+            <div class="weather-box precipitation">
+                <img src="assets/images/drop.png" alt="Rain Drop Icon">
+                <h2>Precipitation</h2>
+                <h1>2.3"</h1>
+                <h2>in last 24h</h2>
+                <p>2" expected in next 24h</p>
+            </div>
+            <div class="weather-box visibility">
+                <img src="assets/images/visibility.png" alt="Visibility Icon">
+                <h2>Visibility</h2>
+                <h1>6 miles</h1>
+            </div>
+            <div class="weather-box humidity">
+                <img src="assets/images/humidity.png" alt="Humidity Icon">
+                <h2>HUMIDITY</h2>
+                <h1>82%</h1>
+                <p>The dew point is 25&#176; right now</p>
+            </div>
+        </div>
+    </section>
+    <section class="right-container">
+        <div class="forecast hourly-forecast">
+            <img src="assets/images/clock.png" alt="Clock Icon">
+            <div>HOURLY FORECAST</div>
+            <hr>
+            <div id="hourlyForecastCard">
+                <div class="card">
+                    <h1>16:00</h1>
+                    <h1>28&#176;</h1>
+                </div>
+            </div>
+        </div>
+        <div class="forecast ten-day-forecast">
+            <img src="assets/images/calendar.png" alt="Calendar Icon">
+            <div>10-DAY FORECAST</div>
+            <hr>
+            <div id="dailyForecastCard">
+                <div class="card">
+                    <h1>16/09</h1>
+                    <h1>28&#176;</h1>
+                </div>
+            </div>
+        </div>
+        <div class="right-container-boxes">
+            <div class="weather-box uv-index">
+                <img src="assets/images/uv-index.png" alt="UV Icon">
+                <h2>UV INDEX</h2>
+                <h1>3</h1>
+                <h2>Moderate</h2>
+                <div class="uv-scale">
+                    <div class="marker"></div>
+                </div>
+                <p>Use sun protection until 17:30</p>
+            </div>
+            <div class="weather-box wind">
+                <img src="assets/images/wind.png" alt="Wind Icon">
+                <h2>WIND</h2>
+                <div>
+                    <div>3</div>
+                    <div>MPH</div>
+                    <div>Wind</div>
+                </div>
+                <hr>
+                <div>
+                    <div>9</div>
+                    <div>MPH</div>
+                    <div>Gusts</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script type="module" src="weather.js"></script>
+</body>
+
+</html>
