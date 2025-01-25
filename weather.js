@@ -34,7 +34,7 @@ function setBackground(weatherCondition) {
 
     switch (weatherCondition.toLowerCase()) {
         case 'thunderstorm':
-            body.style.backgroundImage = "url('assets/images/thunderstorm.png')";
+            body.style.backgroundImage = "url('assets/images/thunderstorm.jpg')";
             root.style.setProperty('--scrollbar-thumb-color', 'rgba(0, 0, 0, 0.6)');
             break;
         case 'drizzle':
